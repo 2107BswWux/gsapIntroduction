@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #1a1a18;
+}
+
+.nav{
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 1px solid #f9f9f9;
+    background: #1a1a18;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:translateY(-100px);
+}
+
+.content{
+    width: 100vw;
+    height: 80vh;
+   
+    display: flex;
+ 
+}
+
+.left{
+   height: 100%;
+   width: 50%;
+   background: #f9f9f9;
+   transform: translateX(-100%);
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background: #c4fafa;
+ }
